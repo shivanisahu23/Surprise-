@@ -290,3 +290,409 @@ body {
     font-weight: lighter;
   }
 }
+/* For smaller mobile screens (max-width: 450px) */
+@media screen and (max-width: 450px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .one {
+    font-size: 3rem;
+  }
+
+  .two {
+    font-size: 1rem;
+  }
+
+  .three {
+    font-size: 2.5rem;
+  }
+
+  .four .text-box {
+    width: 90%;
+    padding: 8px;
+  }
+
+  .text-box .fake-btn {
+    bottom: -30px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .five p {
+    font-size: 1.5rem;
+  }
+
+  .idea-6 span {
+    font-size: 8rem;
+  }
+
+  .six img {
+    height: 250px;
+  }
+
+  .six .hat {
+    width: 50px;
+    left: 35%;
+  }
+
+  .wish-hbd {
+    font-size: 2rem;
+  }
+
+  .wish h5 {
+    font-size: 1rem;
+  }
+
+  .nine p {
+    font-size: 1.2rem;
+  }
+}
+
+/* For medium mobile screens (max-width: 600px) */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+
+  .one {
+    font-size: 4rem;
+  }
+
+  .two {
+    font-size: 1.1rem;
+  }
+
+  .three {
+    font-size: 3rem;
+  }
+
+  .four .text-box {
+    width: 85%;
+  }
+
+  .idea-6 span {
+    font-size: 10rem;
+  }
+
+  .six img {
+    height: 280px;
+  }
+
+  .six .hat {
+    width: 60px;
+    left: 38%;
+  }
+
+  .wish-hbd {
+    font-size: 2.5rem;
+  }
+
+  .wish h5 {
+    font-size: 1.3rem;
+  }
+
+  .nine p {
+    font-size: 1.5rem;
+  }
+}
+
+/* For larger phones and tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 85%;
+  }
+
+  .one {
+    font-size: 4.2rem;
+  }
+
+  .two {
+    font-size: 1.3rem;
+  }
+
+  .three {
+    font-size: 3.5rem;
+  }
+
+  .four .text-box {
+    width: 75%;
+  }
+
+  .idea-6 span {
+    font-size: 12rem;
+  }
+
+  .six img {
+    height: 320px;
+  }
+
+  .six .hat {
+    width: 70px;
+    left: 40%;
+  }
+
+  .wish-hbd {
+    font-size: 2.8rem;
+  }
+
+  .wish h5 {
+    font-size: 1.5rem;
+  }
+
+  .nine p {
+    font-size: 1.8rem;
+  }
+}
+/* Extra small devices (max-width: 360px) */
+@media screen and (max-width: 360px) {
+  .container {
+    width: 98%;
+    padding: 8px;
+  }
+
+  .one {
+    font-size: 2.5rem;
+  }
+
+  .two {
+    font-size: 0.9rem;
+  }
+
+  .three {
+    font-size: 2rem;
+  }
+
+  .four .text-box {
+    width: 95%;
+    padding: 6px;
+  }
+
+  .text-box .fake-btn {
+    bottom: -25px;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.7rem;
+  }
+
+  .five p {
+    font-size: 1.3rem;
+  }
+
+  .idea-6 span {
+    font-size: 7rem;
+  }
+
+  .six img {
+    height: 220px;
+  }
+
+  .six .hat {
+    width: 40px;
+    left: 32%;
+  }
+
+  .wish-hbd {
+    font-size: 1.8rem;
+  }
+
+  .wish h5 {
+    font-size: 0.9rem;
+  }
+
+  .nine p {
+    font-size: 1rem;
+  }
+}
+
+/* Small Phones (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .container {
+    width: 94%;
+  }
+
+  .one {
+    font-size: 3rem;
+  }
+
+  .two {
+    font-size: 1rem;
+  }
+
+  .three {
+    font-size: 2.5rem;
+  }
+
+  .four .text-box {
+    width: 90%;
+  }
+
+  .idea-6 span {
+    font-size: 8.5rem;
+  }
+
+  .six img {
+    height: 250px;
+  }
+
+  .six .hat {
+    width: 50px;
+    left: 35%;
+  }
+
+  .wish-hbd {
+    font-size: 2.2rem;
+  }
+
+  .wish h5 {
+    font-size: 1rem;
+  }
+
+  .nine p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Large Phones & Small Tablets (max-width: 640px) */
+@media screen and (max-width: 640px) {
+  .container {
+    width: 90%;
+  }
+
+  .one {
+    font-size: 3.8rem;
+  }
+
+  .two {
+    font-size: 1.2rem;
+  }
+
+  .three {
+    font-size: 3rem;
+  }
+
+  .four .text-box {
+    width: 80%;
+  }
+
+  .idea-6 span {
+    font-size: 9.5rem;
+  }
+
+  .six img {
+    height: 270px;
+  }
+
+  .six .hat {
+    width: 55px;
+    left: 38%;
+  }
+
+  .wish-hbd {
+    font-size: 2.6rem;
+  }
+
+  .wish h5 {
+    font-size: 1.2rem;
+  }
+
+  .nine p {
+    font-size: 1.4rem;
+  }
+}
+
+/* Tablets & Small Laptops (max-width: 992px) */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 85%;
+  }
+
+  .one {
+    font-size: 4.2rem;
+  }
+
+  .two {
+    font-size: 1.3rem;
+  }
+
+  .three {
+    font-size: 3.5rem;
+  }
+
+  .four .text-box {
+    width: 75%;
+  }
+
+  .idea-6 span {
+    font-size: 10rem;
+  }
+
+  .six img {
+    height: 320px;
+  }
+
+  .six .hat {
+    width: 70px;
+    left: 40%;
+  }
+
+  .wish-hbd {
+    font-size: 2.8rem;
+  }
+
+  .wish h5 {
+    font-size: 1.5rem;
+  }
+
+  .nine p {
+    font-size: 1.8rem;
+  }
+}
+
+/* Desktops & Large Screens */
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 70%;
+  }
+
+  .one {
+    font-size: 5rem;
+  }
+
+  .two {
+    font-size: 1.5rem;
+  }
+
+  .three {
+    font-size: 4rem;
+  }
+
+  .four .text-box {
+    width: 60%;
+  }
+
+  .idea-6 span {
+    font-size: 12rem;
+  }
+
+  .six img {
+    height: 400px;
+  }
+
+  .six .hat {
+    width: 80px;
+    left: 42%;
+  }
+
+  .wish-hbd {
+    font-size: 3rem;
+  }
+
+  .wish h5 {
+    font-size: 1.7rem;
+  }
+
+  .nine p {
+    font-size: 2rem;
+  }
+}
